@@ -19,12 +19,7 @@ except ImportError:
 # do NOT share it with anyone. If it's ever exposed, change the Aurora
 # password immediately afterward.
 # =====================================================================
-AURORA_HOST = "aurora-postgresql-instance-1.cprlveqgk4gi.ap-south-1.rds.amazonaws.com"
-AURORA_PORT = "5432"
-AURORA_DB = "visibility_data"
-AURORA_USER = "postgres"
-AURORA_PASSWORD = "z046R1aciyy8"
-AURORA_SSLMODE = "require"   # set to "disable" only if your instance doesn't enforce SSL
+
 
 # Populate os.environ so the rest of the script (which reads from env vars)
 # works unchanged.
